@@ -1,18 +1,20 @@
 import styles from './Navbar.module.css'
 import { FaLinkedin,FaGithub } from "react-icons/fa";
+import nav from 'react-bootstrap/Nav'
+import NavLink from 'react-bootstrap/esm/NavLink';
 
 
 function navbar(){
     return(
         <div className={styles.navbar}>
             <ul>
-                <li>Apresentação</li>
-                <li>Habilidades</li>
-                <li>Projetos</li>
+                <li><NavLink href='#Presentation'>Apresentação</NavLink></li>
+                <li><NavLink href='#Skills'>Habilidades</NavLink></li>
+                <li><NavLink href='#Projects'>Projetos</NavLink></li>
             </ul>
             <ul>
-                <li><FaGithub size={40}/></li>
-                <li><FaLinkedin size={40}/></li>
+                <li><a href='https://github.com/wesleyoliveirabsb'><FaGithub size={40}/></a></li>
+                <li><a href='https://www.linkedin.com/in/wesleyoliveirabsb/'><FaLinkedin size={40}/></a></li>
             </ul>
         </div>
     )
