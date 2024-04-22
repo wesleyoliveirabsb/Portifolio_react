@@ -1,6 +1,6 @@
 import styles from './Navbar.module.css'
 import { FaLinkedin,FaGithub } from "react-icons/fa";
-import nav from 'react-bootstrap/Nav'
+import Nav from 'react-bootstrap/Nav'
 import NavLink from 'react-bootstrap/esm/NavLink';
 
 
@@ -8,7 +8,7 @@ function navbar(){
     return(
         <div className={styles.navbar}>
             <ul>
-                <li><NavLink href='#Presentation'>Apresentação</NavLink></li>
+                <li><Nav.Link href='#Presentation'>Apresentação</Nav.Link></li>
                 <li><NavLink href='#Skills'>Habilidades</NavLink></li>
                 <li><NavLink href='#Projects'>Projetos</NavLink></li>
             </ul>
