@@ -9,7 +9,7 @@ function Skills(){
     return(
         <div className={styles.skill} id='Skills'>
             <h1>Habilidades</h1>
-            <p>Conheça um pouco das minahs habildiades e conhecimentos</p>
+            <p>Conheça um pouco das minhas Habilidades e conhecimentos</p>
             <div>
                 <img src={html} alt='html logo'></img>
                 <img src={css} alt='css logo'></img>
