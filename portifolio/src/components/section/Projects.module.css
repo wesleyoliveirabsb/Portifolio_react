@@ -1,0 +1,9 @@
+.projects{
+    text-align: justify;  
+    margin-left: 75px;
+}
+
+.projects{
+    /*eu devia botar o h1 no projeto já que o h1 ésempre 45px*/
+    font-size: 45px;
+}
